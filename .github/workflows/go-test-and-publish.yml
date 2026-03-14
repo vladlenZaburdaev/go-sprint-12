@@ -91,4 +91,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_NAME }}/tracker-app:${{ github.ref_name }}
+        tags: ${{ secrets.DOCKER_USERNAME }}/tracker-app:${{ github.ref_name }}
